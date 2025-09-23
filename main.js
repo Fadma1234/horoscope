@@ -1,4 +1,5 @@
 //declare horoscopes for each sign
+//I used chatgpt to help me with this part
 const horoscopes = {
     Aries: "You are energetic and courageous today. Take bold steps!",
     Taurus: "Stability and comfort are your focus. Enjoy the simple things.",
@@ -14,6 +15,7 @@ const horoscopes = {
     Pisces: "Let your imagination guide you. Artistic pursuits are favored."
 };
 //make a function to get sign based on day and month
+//I used google to help me with this part
 function getZodiacSign(month, day) {
    
    if ((month === 3 && day >= 21) || (month === 4 && day <= 19)) return "Aries"; 
@@ -34,6 +36,7 @@ function getZodiacSign(month, day) {
     
 }
 //add event listener to button
+//I created this part on my own based on what I learned in class
 document.getElementById('yell').addEventListener('click', function () {
     //get birthday input val
     const birthdayInput = document.getElementById('birthday').value;
@@ -44,6 +47,7 @@ document.getElementById('yell').addEventListener('click', function () {
         return;
     }
     //use date object to parse month and day
+    //I used google to help me with this part
     const date = new Date(birthdayInput);
     const month = date.getMonth() + 1; // getMonth() is zero-based
     const day = date.getDate();
@@ -55,6 +59,7 @@ document.getElementById('yell').addEventListener('click', function () {
         document.getElementById('placeToYell').textContent = "Invalid date. Please try again.";
     }
 });
+//copied from google 
 //make my image move
 // const image = document.getElementById('myImage');
 //   let posX = 0;
