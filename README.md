@@ -1,4 +1,5 @@
 # Horoscope App
+<img width="1920" alt="image" src="https://github.com/user-attachments/assets/ce334bdd-5c24-4989-8574-df2901622e37" />
 
 This is a simple web app that shows horoscopes.  
 It’s built with plain **HTML, CSS, and JavaScript**.  
